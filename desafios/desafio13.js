@@ -1,13 +1,13 @@
 function classificaAluno(nota) {
     let notaArredondada = arredondar(nota)
     if (notaArredondada >= 40) {
-        console.log(`Aprovado com nota ${notaArredondada}`);
+        console.log(`Aprovado com nota ${notaArredondada}`)
     } else {
-        console.log(`Reprovado com nota ${notaArredondada}`);
+        console.log(`Reprovado com nota ${notaArredondada}`)
     }
 }
 
-function arredondar (nota) {
+function arredondar(nota) {
     if (nota % 5 > 2) {
         return nota + (5 - (nota % 5))
     } else {

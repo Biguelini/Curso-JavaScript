@@ -1,5 +1,5 @@
-function verificaSeAnoEBissexto (ano) {
-    if (ano <= 0){
+function verificaSeAnoEBissexto(ano) {
+    if (ano <= 0) {
         return false
     } else if (ano % 400 == 0) {
         return true
