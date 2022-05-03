@@ -8,11 +8,10 @@ import ReactDOM from 'react-dom'
     //     </div>,
     //     document.getElementById('root')
     // )
-import Multi from './components/Multiplos'
+import Saudacao from './components/Saudacao'
 ReactDOM.render(
     <div>
-        <Multi.BoaTarde nome="João" />
-        <Multi.BoaNoite nome="Ana" />
+        <Saudacao tipo="Bom dia" nome="João"/>
     </div>,
     document.getElementById('root')
 )
