@@ -1,19 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
       "name": "João Pedro Biguelini",
-      "email": "joaopedro@gmail.com"
+      "email": "biguelinijoao@gmail.com",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Lóren Andrade",
-      "email": "loren@gmail.com"
-    },
-    {
-      "name": "Margarete",
+      "name": "teste",
       "email": "teste@teste.com",
-      "id": 3
+      "id": 2
     }
   ]
 }
