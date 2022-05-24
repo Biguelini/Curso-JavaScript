@@ -1,3 +1,3 @@
-export default function Teste(){
-    return "Teste"
+export default function Teste() {
+    return 'Teste'
 }
