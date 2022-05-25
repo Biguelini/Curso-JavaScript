@@ -1,3 +1,5 @@
+import Layout from "../components/Layout";
+
 export default function Teste() {
-    return 'Teste'
+    return <Layout>Teste</Layout>
 }
